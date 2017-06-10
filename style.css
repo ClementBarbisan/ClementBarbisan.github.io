@@ -33,6 +33,7 @@ a:hover
 .case400
 {
     height: 400px;
+    width: 33%;
     border: solid 2px grey;
     float:left;
 }

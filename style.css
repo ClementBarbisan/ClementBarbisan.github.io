@@ -44,7 +44,7 @@ a:hover
     height: 100%;
 }
 
-iframe:hover .title
+.title:hover
 {
     display: block;
 }

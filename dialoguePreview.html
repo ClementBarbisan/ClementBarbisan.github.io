@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Clément Barbisan</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<script>
+    window.onload = function() {
+        document.getElementById("dialoguePreview").addEventListener("mouseup", function()
+        {
+            for (var i = 0; i < parent.window.frames.length; i++)
+            {
+                parent.window.frames[i].src = parent.window.frames[i].id + "Preview.html";
+            }
+            window.parent.location.reload();
+            window.frameElement.src = "dialogue.html";
+        });
+    };
+
+</script>
+<div class="case400" id="dialoguePreview">
+    <div class="title">
+        Dialogue Synesthète
+    </div>
+</div>
+
+</body>
+</html></html>

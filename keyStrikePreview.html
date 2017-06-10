@@ -10,7 +10,11 @@
         window.onload = function() {
             document.getElementById("keyStrikePreview").addEventListener("mouseup", function()
             {
-                console.log("click");
+                for (var i = 0; i < parent.window.frames.length; i++)
+                {
+                    parent.window.frames[i].src = parent.window.frames[i].id + "Preview.html";
+                }
+                window.parent.location.reload();
                 window.frameElement.src = "keyStrike.html";
             });
         };

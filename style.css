@@ -28,7 +28,7 @@ a:hover
     border: solid 2px grey
 }
 
-.td:hover .title { display: block; }
+td:hover .title { display: block; }
 
 .title
 {

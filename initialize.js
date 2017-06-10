@@ -9,9 +9,9 @@ window.onload = function() {
 function openFrame(container, string)
 {
     if (oldValue !== null) {
-        document.getElementById(oldValue).src = oldValue+"Preview.html";
-        document.getElementById(oldValue).style.height = oldHeight;
-        document.getElementById(oldValue).style.width = oldWidth;
+        document.getElementById(string).src = oldValue+"Preview.html";
+        document.getElementById(string).style.height = oldHeight;
+        document.getElementById(string).style.width = oldWidth;
     }
     oldValue = string;
     var obj = document.getElementById(string);

@@ -28,7 +28,13 @@ a:hover
     border: solid 2px grey
 }
 
-td:hover .title { display: block; }
+.case400
+{
+    height: 300px;
+    border: solid 2px grey
+}
+
+.case400:hover .title { display: block; }
 
 .title
 {

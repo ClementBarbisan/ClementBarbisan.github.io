@@ -42,18 +42,18 @@
     </style>
     <script>
         window.onload = function() {
-            document.getElementById("keyStrikePreview").addEventListener("mouseup", openFrame());
-        };
-        function openFrame()
-        {
-            console.log("click");
-            window.frameElement.src = "keyStrike.html";
-            setTimeout(function()
+            document.getElementById("keyStrikePreview").addEventListener("mouseup", function()
             {
-                window.frameElement.style.height = document.body.scrollHeight + 'px';
-                window.frameElement.style.width = document.body.scrollWidth + 'px';
-            }, 1000);
-        }
+                console.log("click");
+                window.frameElement.src = "keyStrike.html";
+                setTimeout(function()
+                {
+                    window.frameElement.style.height = document.body.scrollHeight + 'px';
+                    window.frameElement.style.width = document.body.scrollWidth + 'px';
+                }, 1000);
+            });
+        };
+
     </script>
     <div class="case400" id="keyStrikePreview">
         <div class="title">

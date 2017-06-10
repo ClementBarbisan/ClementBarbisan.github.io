@@ -47,7 +47,7 @@ a:hover
     color: lightgrey;
     float: left;
     display: none;
-    position:absolute;
+    position:inherit;
     left:0px;
     top:0px
 }

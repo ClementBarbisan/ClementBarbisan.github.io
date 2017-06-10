@@ -36,18 +36,15 @@ a:hover
 
 /*.case400:hover .title { display: block; }*/
 
-.title
-{
-    padding: 8px;
-    font: 20px sans-serif;
-    font-weight: bold;
-    color: lightgrey;
-    float: left;
-    position: absolute;
-    left:0px;
-    right:0px;
-    display: none;
-}
+/*.title*/
+/*{*/
+    /*padding: 8px;*/
+    /*font: 20px sans-serif;*/
+    /*font-weight: bold;*/
+    /*color: lightgrey;*/
+    /*float: left;*/
+    /*display: none;*/
+/*}*/
 
 #dialogue {background: url("./images/ced_2015.jpg") no-repeat center; background-size: cover; }
 #formes {background: url("./images/forme5.png") no-repeat center; background-size: cover; }

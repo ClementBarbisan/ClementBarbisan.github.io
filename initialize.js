@@ -1,20 +1,6 @@
-window.onload = function() {
-    document.getElementById("keyStrike").onclick = function () {
-        console.log("click");
-    };
-    document.getElementById("formes").onclick = function () {
-        Console.Log("click!");
-    };
-    document.getElementById("installations").onclick = function () {
-        Console.Log("click!");
-    };
-    document.getElementById("particleSystem").onclick = function () {
-        Console.Log("click!");
-    };
-    document.getElementById("dialogue").onclick = function () {
-        Console.Log("click!");
-    };
-    document.getElementById("genetype").onclick = function () {
-        Console.Log("click!");
-    };
+function openFrame(obj, string)
+{
+    obj.src = string + "html";
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+    obj.style.width = obj.contentWindow.document.body.scrollWidth + 'px';
 }

@@ -44,9 +44,9 @@ a:hover
     height: 100%;
 }
 
-.title:hover
+.case400:hover .title
 {
-    display: block;
+    display: inherit;
 }
 
 .title

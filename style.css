@@ -31,6 +31,7 @@ a:hover
 .case400
 {
     height: 300px;
+    width: 33%;
     border: solid 2px grey;
     position: relative;
 }

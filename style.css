@@ -38,11 +38,6 @@ a:hover
 
 .title
 {
-    display: none;
-}
-
-.title
-{
     padding: 8px;
     font: 20px sans-serif;
     font-weight: bold;
@@ -51,6 +46,7 @@ a:hover
     position: absolute;
     left:0px;
     right:0px;
+    display: none;
 }
 
 #dialogue {background: url("./images/ced_2015.jpg") no-repeat center; background-size: cover; }

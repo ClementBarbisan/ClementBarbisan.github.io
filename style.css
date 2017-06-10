@@ -25,16 +25,15 @@ a:hover
 .case300
 {
     height: 300px;
-    border: solid 2px grey;
+    border: solid 2px grey
 }
 
-.case400
+.table-cell
 {
     height: 400px;
-    border: solid 2px grey;
 }
 
-.case400:hover .title { display: block; }
+.table-cell:hover .title { display: block; }
 
 .title
 {

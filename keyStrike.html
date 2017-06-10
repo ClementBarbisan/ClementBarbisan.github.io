@@ -5,6 +5,17 @@
     <title>Clément Barbisan</title>
     <link href="style.css" rel="stylesheet">
 </head>
+<script language="JavaScript">
+    function closeFrame()
+    {
+        if (oldValue !== null) {
+            document.getElementById(oldValue).src = oldValue+"Preview.html";
+            document.getElementById(oldValue).style.height = oldHeight;
+            document.getElementById(oldValue).style.width = oldWidth;
+        }
+        oldValue = null;
+    }
+</script>
 <body>
     <table>
         <td>

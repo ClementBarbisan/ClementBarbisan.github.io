@@ -50,6 +50,8 @@
                 {
                     window.frameElement.style.height = document.body.scrollHeight + 'px';
                     window.frameElement.style.width = document.body.scrollWidth + 'px';
+                    window.frameElement.parent.style.height = window.frameElement.style.height;
+                    window.frameElement.parent.style.width = window.frameElement.style.width;
                 }, 1000);
             });
         };

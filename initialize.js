@@ -1,15 +1,17 @@
-// var oldValue = null;
-// var oldHeight = 0;
-// var oldWidth = 0;
+var oldValue = null;
+var oldHeight = 0;
+var oldWidth = 0;
+
+document.getElementById("keyStrikeEvent").addEventListener("click", openFrame("keyStrikeEvent", "keyStrike"));
 
 function openFrame(container, string)
 {
-    // if (oldValue !== null) {
-    //     document.getElementById(oldValue).src = oldValue+"Preview.html";
-    //     document.getElementById(oldValue).style.height = oldHeight;
-    //     document.getElementById(oldValue).style.width = oldWidth;
-    // }
-    // oldValue = string;
+    if (oldValue !== null) {
+        document.getElementById(oldValue).src = oldValue+"Preview.html";
+        document.getElementById(oldValue).style.height = oldHeight;
+        document.getElementById(oldValue).style.width = oldWidth;
+    }
+    oldValue = string;
     var obj = document.getElementById(string);
     console.log("click");
     obj.src = string + ".html";
@@ -17,8 +19,8 @@ function openFrame(container, string)
     {
         obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
         obj.style.width = obj.contentWindow.document.body.scrollWidth + 'px';
-        container.style.height = obj.style.height;
-        container.style.width = obj.style.width;
+        document.getElementById(container).style.height = obj.style.height;
+        document.getElementById(container).style.width = obj.style.width;
     }, 1000);
 }
 

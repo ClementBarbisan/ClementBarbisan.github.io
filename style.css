@@ -42,6 +42,12 @@ a:hover
 
 .case-container:hover .title { display: block; }
 
+@media screen and (min-width: 768px) {
+    .case-container .title{
+        display: none;
+    }
+}
+
 .title
 {
     padding: 8px;

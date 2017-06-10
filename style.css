@@ -47,9 +47,7 @@ a:hover
     color: lightgrey;
     float: left;
     display: none;
-    position:inherit;
-    left:0px;
-    top:0px
+    position:absolute;
 }
 
 #dialogue {background: url("./images/ced_2015.jpg") no-repeat center; background-size: cov}

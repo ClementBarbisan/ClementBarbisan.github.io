@@ -14,7 +14,7 @@
                 {
                     if (parent.window.frames[i].id !== "keyStrike") {
                         parent.window.frames[i].src = parent.window.frames[i].id + "Preview.html";
-                        parent.window.frames[i].contentWindow.location.reload(true);
+                        parent.window.frames[i].contentWindow.reload(true);
                     }
                 }
                 window.frameElement.src = "keyStrike.html";

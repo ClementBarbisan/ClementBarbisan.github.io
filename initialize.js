@@ -1,12 +1,15 @@
 var oldValue = null;
-
+var oldHeight = 0;
+var oldWidth = 0;
 
 function openFrame(container, string)
 {
-    if (oldValue !== null)
-        document.getElementById(oldValue).style.display = 'block';
-    oldValue = string + "Preview";
-    document.getElementById(oldValue).style.display = 'none';
+    if (oldValue !== null) {
+        document.getElementById(oldValue).src = oldValue+"Preview.html";
+        document.getElementById(oldValue).style.height = oldHeight;
+        document.getElementById(oldValue).style.width = oldWidth;
+    }
+    oldValue = string;
     var obj = document.getElementById(string);
     obj.src = string + ".html";
     setTimeout(function()

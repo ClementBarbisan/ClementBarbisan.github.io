@@ -41,14 +41,13 @@ a:hover
 
 .title
 {
-    padding: 8px;
+    padding: 15%;
     font: 20px sans-serif;
     font-weight: bold;
     color: lightgrey;
     float: left;
     display: none;
     position:absolute;
-    left:15%;
 }
 
 #dialogue {background: url("./images/ced_2015.jpg") no-repeat center; background-size: cov}

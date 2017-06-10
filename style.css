@@ -36,10 +36,9 @@ a:hover
 
 .case400:hover .title { display: block; }
 
-@media screen and (min-width: 768px) {
-    .case400 .title{
-        display: none;
-    }
+.title
+{
+    display: none;
 }
 
 .title

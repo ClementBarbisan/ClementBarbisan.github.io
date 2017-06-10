@@ -64,14 +64,29 @@ a:hover
 .description
 {
     position: relative;
+    margin-top: 8px;
+    font: 12px arial, sans-serif;
 }
 
-.delete
+.description .delete
 {
     height: 10%;
     position: absolute;
     top: 0px;
     right: 0px;
+}
+
+.buttons
+{
+    clear: both;
+    margin-top: 8px;
+}
+
+.button
+{
+    padding: 4px;
+    font: 18px arial, sans-serif;
+    float: left;
 }
 
 #dialogue {background: url("./images/ced_2015.jpg") no-repeat center; background-size: cover;}

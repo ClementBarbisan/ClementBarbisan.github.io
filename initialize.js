@@ -6,16 +6,6 @@ window.onload = function() {
     document.getElementById("keyStrikeEvent").addEventListener("mouseup", openFrame("keyStrikeEvent", "keyStrike"));
 };
 
-function closeFrame()
-{
-    if (oldValue !== null) {
-        document.getElementById(oldValue).src = oldValue+"Preview.html";
-        document.getElementById(oldValue).style.height = oldHeight;
-        document.getElementById(oldValue).style.width = oldWidth;
-    }
-    oldValue = null;
-}
-
 function openFrame(container, string)
 {
     if (oldValue !== null) {

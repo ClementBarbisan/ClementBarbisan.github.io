@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Clément Barbisan</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<script>
+    window.frameElement.style.height = '1066px';
+    window.frameElement.style.width = '800px';
+    window.parent.document.getElementById("installationsParent").style.height = window.frameElement.style.height;
+    window.parent.document.getElementById("installationsParent").style.width = window.frameElement.style.width;
+    function closeFrame()
+    {
+        window.frameElement.src = "installationsPreview.html";
+        window.parent.location.reload();
+    }
+</script>
+<body>
+<table>
+    <td>
+        <img src="images/installation.JPG"></img>
+    </td>
+    <td class="description">
+        Installstions formelles
+        <img src="images/delete.png" class="delete" onclick="closeFrame()"></img>
+    </td>
+</table>
+</body>
+</html>

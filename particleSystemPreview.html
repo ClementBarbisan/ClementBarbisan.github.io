@@ -8,20 +8,20 @@
 <body>
 <script>
     window.onload = function() {
-        document.getElementById("formesPreview").addEventListener("mouseup", function()
+        document.getElementById("particleSystemPreview").addEventListener("mouseup", function()
         {
             for (var i = 0; i < parent.window.frames.length; i++)
             {
-                    parent.window.frames[i].src = parent.window.frames[i].id + "Preview.html";
+                parent.window.frames[i].src = parent.window.frames[i].id + "Preview.html";
             }
-            window.frameElement.src = "formes.html";
+            window.frameElement.src = "particleSystem.html";
         });
     };
 
 </script>
-<div class="case400" id="formesPreview">
+<div class="case400" id="particleSystemPreview">
     <div class="title">
-        Formes
+        KeyStrike
     </div>
 </div>
 

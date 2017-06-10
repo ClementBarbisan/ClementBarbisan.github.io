@@ -89,8 +89,6 @@ a:hover
     float: left;
 }
 
-#installations {background: url("./images/installation.JPG") no-repeat center; background-size: cover; }
-#particleSystem {background: url("./images/particleSystem.jpg") no-repeat center; background-size: cover; }
 #keyStrikePreview {background: url("./images/keyStrike.png") no-repeat center; background-size: cover; }
 #keyStrikeParent {}
 #formesPreview {background: url("./images/forme5.png") no-repeat center; background-size: cover; }
@@ -99,3 +97,7 @@ a:hover
 #dialogueParent {}
 #genetypePreview {background: url("./images/genetype.png") no-repeat center; background-size: cover; }
 #genetypeParent {}
+#installationsPreview {background: url("./images/installation.JPG") no-repeat center; background-size: cover; }
+#installationsParent {}
+#particleSystemPreview {background: url("./images/particleSystem.jpg") no-repeat center; background-size: cover; }
+#particleSystemParent {}

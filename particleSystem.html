@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Clément Barbisan</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<script>
+    window.frameElement.style.height = '444px';
+    window.frameElement.style.width = '800px';
+    window.parent.document.getElementById("particleSystemParent").style.height = window.frameElement.style.height;
+    window.parent.document.getElementById("particleSystemParent").style.width = window.frameElement.style.width;
+    function closeFrame()
+    {
+        window.frameElement.src = "particleSystemPreview.html";
+        window.parent.location.reload();
+    }
+</script>
+<body>
+<table>
+    <td>
+        <img src="images/particleSystem.jpg"></img>
+    </td>
+    <td class="description">
+        Si;ulation dún système de particules.
+        <div class="buttons">
+            <div class="button"><a href="https://github.com/ClementBarbisan/particleSystem" target="_blank">Code Sources</a></div>
+        </div>
+        <img src="images/delete.png" class="delete" onclick="closeFrame()"></img>
+    </td>
+</table>
+</body>
+</html>

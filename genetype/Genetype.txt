@@ -1,0 +1,2 @@
+Genetype
+En appuyant sur "Start", l'application enregistre les sons d'un volume assez élevé et modifie la lettre A en conséquence, lorsqu'on appuie sur "End", l'application affiche le texte entré précédemment en y appliquant les modifications dû aux sons entendus.

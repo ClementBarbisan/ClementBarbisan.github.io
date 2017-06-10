@@ -8,21 +8,21 @@
 <script>
     window.frameElement.style.height = '800px';
     window.frameElement.style.width = '800px';
-    window.parent.document.getElementById("dialogueParent").style.height = window.frameElement.style.height;
-    window.parent.document.getElementById("dialogueParent").style.width = window.frameElement.style.width;
+    window.parent.document.getElementById("genetypeParent").style.height = window.frameElement.style.height;
+    window.parent.document.getElementById("genetypeParent").style.width = window.frameElement.style.width;
     function closeFrame()
     {
-        window.frameElement.src = "dialoguePreview.html";
+        window.frameElement.src = "genetypePreview.html";
         window.parent.location.reload();
     }
 </script>
 <body>
 <table>
     <td>
-        <video controls="controls" width="640" height="360" src="dialogue_synesthete/dialogue_synesthete.mov"></video>
+        <object width="400" height="500" data="./genetype/Genetype.swf"></object>
     </td>
     <td class="description">
-        Dialogue entre un aveugle et un sourd.
+        Votre voix en image.
         <img src="images/delete.png" class="delete" onclick="closeFrame()"></img>
     </td>
 </table>

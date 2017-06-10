@@ -8,23 +8,23 @@
 <body>
 <script>
     window.onload = function() {
-        document.getElementById("formesPreview").addEventListener("mouseup", function()
+        document.getElementById("genetypePreview").addEventListener("mouseup", function()
         {
             for (var i = 0; i < parent.window.frames.length; i++)
             {
                 parent.window.frames[i].src = parent.window.frames[i].id + "Preview.html";
                 parent.window.frames[i].contentWindow.location.reload(true);
             }
-            window.frameElement.src = "formes.html";
+            window.frameElement.src = "genetype.html";
         });
     };
 
 </script>
-<div class="case400" id="formesPreview">
+<div class="case400" id="genetypePreview">
     <div class="title">
-        Formes
+        Genetype
     </div>
 </div>
 
 </body>
-</html></html>
+</html>

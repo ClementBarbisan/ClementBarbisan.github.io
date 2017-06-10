@@ -13,8 +13,8 @@
             for (var i = 0; i < parent.window.frames.length; i++)
             {
                 parent.window.frames[i].src = parent.window.frames[i].id + "Preview.html";
+                parent.window.frames[i].contentWindow.location.reload(true);
             }
-//            window.parent.location.reload();
             window.frameElement.src = "dialogue.html";
         });
     };
@@ -27,4 +27,4 @@
 </div>
 
 </body>
-</html></html>
+</html>

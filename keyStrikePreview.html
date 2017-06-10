@@ -40,6 +40,24 @@
         }
         #keyStrikePreview {background: url("./images/keyStrike.png") no-repeat center; background-size: cover; }
     </style>
+    <script>
+        window.onload = function() {
+            document.getElementById("keyStrikePreview").addEventListener("mouseup", openFrame());
+        };
+        function openFrame()
+        {
+            var obj = document.getElementById("keyStrike");
+            console.log("click");
+            obj.src = "keyStrike.html";
+            setTimeout(function()
+            {
+                obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+                obj.style.width = obj.contentWindow.document.body.scrollWidth + 'px';
+                window.frameElement.style.height = obj.style.height;
+                window.frameElement.style.width = obj.style.width;
+            }, 1000);
+        }
+    </script>
     <div class="case400" id="keyStrikePreview">
         <div class="title">
             KeyStrike

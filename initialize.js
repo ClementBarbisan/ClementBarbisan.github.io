@@ -11,6 +11,7 @@ function openFrame(container, string)
     }
     oldValue = string;
     var obj = document.getElementById(string);
+    console.log("click");
     obj.src = string + ".html";
     setTimeout(function()
     {

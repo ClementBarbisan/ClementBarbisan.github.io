@@ -36,8 +36,7 @@ a:hover
 
 .case400:hover .title
 {
-    display: block;
-    width:33%;
+    display: inherit;
 }
 
 .title
@@ -48,7 +47,9 @@ a:hover
     color: lightgrey;
     float: left;
     display: none;
-
+    position:absolute;
+    left:0px;
+    top:0px
 }
 
 #dialogue {background: url("./images/ced_2015.jpg") no-repeat center; background-size: cov}

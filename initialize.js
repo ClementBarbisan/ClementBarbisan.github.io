@@ -9,5 +9,5 @@ function openFrame(container, string)
         obj.style.width = obj.contentWindow.document.body.scrollWidth + 'px';
         container.style.height = obj.style.height;
         container.style.width = obj.style.width;
-    }, 500);
+    }, 1000);
 }

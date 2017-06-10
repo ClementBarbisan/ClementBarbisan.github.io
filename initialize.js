@@ -1,6 +1,6 @@
 window.onload = function() {
     document.getElementById("keyStrike").onclick = function () {
-        Console.Log("click!");
+        console.log("click");
     };
     document.getElementById("formes").onclick = function () {
         Console.Log("click!");

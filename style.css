@@ -34,7 +34,7 @@ a:hover
     border: solid 2px grey;
 }
 
-/*.case400:hover .title { display: block; }*/
+.case400:hover .title { display: block; }
 
 .title
 {

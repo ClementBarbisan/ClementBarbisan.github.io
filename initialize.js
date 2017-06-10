@@ -3,7 +3,7 @@ var oldHeight = 0;
 var oldWidth = 0;
 
 window.onload = function() {
-    document.getElementById("keyStrikeEvent").addEventListener("click", openFrame("keyStrikeEvent", "keyStrike"));
+    document.getElementById("keyStrikeEvent").addEventListener("mouseup", openFrame("keyStrikeEvent", "keyStrike"));
 };
 
 function openFrame(container, string)

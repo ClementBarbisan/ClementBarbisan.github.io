@@ -3,7 +3,7 @@ var oldValue = null;
 
 function openFrame(container, string)
 {
-    if (oldValue != null)
+    if (oldValue !== null)
         document.getElementById(oldValue).style.display = 'block';
     oldValue = string + "Preview";
     document.getElementById(oldValue).style.display = 'none';
@@ -20,7 +20,7 @@ function openFrame(container, string)
 
 function openIFrame(obj, string)
 {
-    if (oldValue != null)
+    if (oldValue !== null)
         document.getElementById(oldValue).style.display = 'block';
     oldValue = string + "Preview";
     document.getElementById(oldValue).style.display = 'none';

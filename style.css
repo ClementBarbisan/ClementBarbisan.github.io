@@ -20,22 +20,18 @@ a:hover
 {
     height: 200px;
     border: solid 2px grey;
-    float:left;
 }
 
 .case300
 {
     height: 300px;
     border: solid 2px grey;
-    float:left;
 }
 
 .case400
 {
     height: 400px;
-    width: 33%;
     border: solid 2px grey;
-    float:left;
 }
 
 .case-container

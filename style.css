@@ -41,7 +41,8 @@ a:hover
 
 .title
 {
-    padding: 20px;
+    padding: 8px;
+    padding-left: 20px;
     font: 20px sans-serif;
     font-weight: bold;
     color: lightgrey;

@@ -6,8 +6,8 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <script>
-    window.frameElement.style.height = window.frameElement.scrollHeight + 'px';
-    window.frameElement.style.width = window.frameElement.scrollWidth + 'px';
+    window.frameElement.style.height = window.frameElement.offsetHeight + 'px';
+    window.frameElement.style.width = window.frameElement.offsetWidth + 'px';
     window.parent.document.getElementById("keyStrikeParent").style.height = window.frameElement.style.height;
     window.parent.document.getElementById("keyStrikeParent").style.width = window.frameElement.style.width;
     function closeFrame()

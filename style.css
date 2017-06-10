@@ -46,7 +46,7 @@ a:hover
 
 iframe:hover .title
 {
-    display: inherit;
+    display: block;
 }
 
 .title

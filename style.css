@@ -1,0 +1,57 @@
+body
+{
+    background: grey;
+    padding: 2px;
+}
+
+a:link
+{
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+a:hover
+{
+    color:grey;
+    text-shadow: 1px 1px 0px black;
+}
+
+.case200
+{
+    height: 200px;
+    border: solid 2px grey;
+}
+
+.case300
+{
+    height: 300px;
+    border: solid 2px grey;
+}
+
+.case400
+{
+    height: 400px;
+    border: solid 2px grey;
+}
+
+.container-fluid
+{
+    width: 100%;
+}
+
+.case-container
+{
+    width: 100%;
+    height: 100%;
+}
+
+.case-container:hover .title { display: block; }
+.case-container:hover .description { display: block; }
+.case-container:hover .buttons { display: block; }
+
+#dialogue {background: url("./images/ced_2015.jpg") no-repeat center; background-size: cover; }
+#formes {background: url("./images/forme5.png") no-repeat center; background-size: cover; }
+#genetype {background: url("./images/genetype.png") no-repeat center; background-size: cover; }
+#installations {background: url("./images/installation.JPG") no-repeat center; background-size: cover; }
+#keyStrike {background: url("./images/keyStrike.png") no-repeat center; background-size: cover; }
+#particleSystem {background: url("./images/particleSystem.jpg") no-repeat center; background-size: cover; }

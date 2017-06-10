@@ -1,0 +1,2 @@
+Dialogue Synesthète
+Deux personnes peuvent communiquer, pour l'un, par des sons qui créent des images via Processing et, pour l'autre, par des mouvements qui créent des sons via un LeapMotion et PureData. 

@@ -9,7 +9,6 @@
         .case400
         {
             height: 300px;
-            width: 33%;
             border: solid 2px grey;
             position: relative;
         }
@@ -47,15 +46,12 @@
         };
         function openFrame()
         {
-            var obj = document.getElementById("keyStrike");
             console.log("click");
-            obj.src = "keyStrike.html";
+            window.frameElement.src = "keyStrike.html";
             setTimeout(function()
             {
-                obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
-                obj.style.width = obj.contentWindow.document.body.scrollWidth + 'px';
-                window.frameElement.style.height = obj.style.height;
-                window.frameElement.style.width = obj.style.width;
+                window.frameElement.style.height = document.body.scrollHeight + 'px';
+                window.frameElement.style.width = document.body.scrollWidth + 'px';
             }, 1000);
         }
     </script>

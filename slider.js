@@ -61,22 +61,22 @@ function slideTo(imageToGo){
     for (var i = 0; i < currentImage; i++)
         width += listWidth[i];
     currentPostion = -1 * width;
-    width = 0;
-    if (currentImage > imageToGo)
-    {
-        for (var i = currentImage; i < imageToGo; i++)
-            width += listWidth[i];
-    }
-    else
-    {
-        for (var i = imageToGo; i < currentImage; i++)
-            width += listWidth[i];
-    }
+
     var opts = {
         duration:1000,
         delta:function(p){return p;},
         step:function(delta){
-
+            width = 0;
+            if (currentImage < imageToGo)
+            {
+                for (var i = currentImage; i < imageToGo; i++)
+                    width += listWidth[i];
+            }
+            else
+            {
+                for (var i = imageToGo; i < currentImage; i++)
+                    width += listWidth[i];
+            }
             ul.style.left = parseInt(currentPostion + direction * delta * width) + 'px';
         },
         callback:function(){currentImage = imageToGo;}

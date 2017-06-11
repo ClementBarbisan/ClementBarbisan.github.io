@@ -15,7 +15,7 @@
             {
                 if (window.top.frames[i].id != undefined && window.top.frames[i].id !== "particleSystem")
                 {
-                    window.top.frames[i].src = window.top.frames[i].id + "Preview.html";
+                    window.top.frames[i].style.display = 'none';
                 }
             }
             window.frameElement.src = "particleSystem.html";

@@ -7,7 +7,17 @@
     box-sizing:border-box;
     background: grey;
     text-align: center;
+    position: relative;
 }
+
+.container .delete
+{
+    height: 10%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
 .slider_wrapper{
     overflow: hidden;
     position:relative;

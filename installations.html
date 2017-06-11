@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Clément Barbisan</title>
     <link href="style.css" rel="stylesheet">
+    <link href="slider.css" rel="stylesheet">
+    <script type="text/javascript" src="slider.js"></script>
 </head>
 <script>
     window.frameElement.style.height = '500px';
@@ -18,13 +20,21 @@
 </script>
 <body>
 <table>
-    <td>
-        <img src="images/installation.JPG" style="height: 500px"></img>
-    </td>
-    <td class="description">
-        Installstions formelles
-        <img src="images/delete.png" class="delete" onclick="closeFrame()"></img>
-    </td>
+    <div class="container">
+        <div class="slider_wrapper">
+            <ul id="image_slider">
+                <li><img src="installations/Cage_1.JPG" style="height: 400px" class="image"></li>
+                <li><img src="installations/Cage_2.JPG" style="height: 400px" class="image"></li>
+                <li><img src="installations/Cube.JPG" style="height: 400px" class="image"></li>
+                <li><img src="installations/Dispersion.JPG" style="height: 400px" class="image"></li>
+                <li><img src="installations/Ambigu.JPG" style="height: 400px" class="image"></li>
+            </ul>
+            <!--<span class="nvgt" id="prev"></span>-->
+            <!--<span class="nvgt" id="next"></span>-->
+        </div>
+        <ul id="pager">
+        </ul>
+    </div>
 </table>
 </body>
 </html>

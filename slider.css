@@ -46,14 +46,7 @@
 .nvgt:hover{
     opacity: 0.9;
 }
-#prev{
-    background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/prev.png') no-repeat center;
-    left: 0px;
-}
-#next{
-    background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/next.png') no-repeat center;
-    right: 0px;
-}
+
 #pager{
     /* firefox has different center method. this doesn't work for fire fox */
     /* not in the center*/

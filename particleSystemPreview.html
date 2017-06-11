@@ -7,16 +7,14 @@
 </head>
 <body>
 <script>
+    var listId = ['keyStrike','genetype','dialogue','installations', 'formes']
     window.onload = function() {
         document.getElementById("particleSystemPreview").addEventListener("mouseup", function()
         {
 
-            for (var i = 0; i < window.top.frames.length; i++)
+            for (var i = 0; i < listId.length; i++)
             {
-                if (window.top.frames[i].id != undefined && window.top.frames[i].id !== "particleSystem")
-                {
-                    window.top.frames[i].style.display = 'none';
-                }
+                parent.document.getElementById(listId[i]).style.display = 'none';
             }
             window.frameElement.src = "particleSystem.html";
         });

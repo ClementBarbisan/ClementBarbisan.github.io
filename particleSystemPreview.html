@@ -13,7 +13,10 @@
             for (var i = 0; i < parent.window.frames.length; i++)
             {
                 if (parent.window.frames[i].id != "particleSystem")
-                    parent.window.frames[i].style.visibility = 'hidden';
+                {
+                    parent.window.frames[i].style.width = '0px';
+                    parent.window.frames[i].style.height = '0px';
+                }
             }
             window.frameElement.src = "particleSystem.html";
         });

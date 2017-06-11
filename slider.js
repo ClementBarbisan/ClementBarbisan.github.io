@@ -15,10 +15,10 @@ function init(){
     liItems = ul.children;
     imageNumber = liItems.length;
     imageWidth = liItems[0].children[0].clientWidth;
-    var width = liItems[0].children[0].clientWidth;
+    var width = liItems[0].children[0].clientWidth + 2;
     for (var i = 0; i < imageNumber; i++)
     {
-        listWidth[i] = liItems[i].children[0].clientWidth;
+        listWidth[i] = liItems[i].children[0].clientWidth + 2;
         width += listWidth[i];
     }
     ul.style.width = parseInt(width) + 'px';

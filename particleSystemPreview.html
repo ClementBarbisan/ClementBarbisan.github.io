@@ -14,8 +14,8 @@
             {
                 if (parent.window.frames[i].id != "particleSystem")
                 {
-                    parent.window.frames[i].style.width = '0px';
-                    parent.window.frames[i].style.height = '0px';
+                    console.log(parent.window.frames[i].id);
+                    parent.document.getElementById(parent.window.frames[i].id).style.display = 'none';
                 }
             }
             window.frameElement.src = "particleSystem.html";

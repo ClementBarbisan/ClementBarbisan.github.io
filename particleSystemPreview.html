@@ -14,7 +14,8 @@
 
             for (var i = 0; i < listId.length; i++)
             {
-                parent.document.getElementById(listId[i]).style.display = 'none';
+//                parent.document.getElementById(listId[i]).style.display = 'none';
+                parent.document.getElementById(listId[i]).src = listId[i] + "Preview.html";
             }
             window.frameElement.src = "particleSystem.html";
         });

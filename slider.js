@@ -8,14 +8,20 @@ var imageWidth;
 var prev, next;
 var currentPostion = 0;
 var currentImage = 0;
-
+var listWidth = [];
 
 function init(){
     ul = document.getElementById('image_slider');
     liItems = ul.children;
     imageNumber = liItems.length;
     imageWidth = liItems[0].children[0].clientWidth;
-    ul.style.width = parseInt(imageWidth * imageNumber) + 'px';
+    var width = 0;
+    for (var i =0; i < imageNumber; i++)
+    {
+        listWidth[i] = liItems[0].children[i].clientWidth;
+        width += listWidth[i];
+    }
+    ul.style.width = parseInt(width) + 'px';
     prev = document.getElementById("prev");
     next = document.getElementById("next");
     generatePager(imageNumber);
@@ -51,12 +57,15 @@ function slideTo(imageToGo){
     // slide toward left
 
     direction = currentImage > imageToGo ? 1 : -1;
-    currentPostion = -1 * currentImage * imageWidth;
+    var width = 0;
+    for (var i = 0; i < currentImage; i++)
+        width += listWidth[i];
+    currentPostion = -1 * width;
     var opts = {
         duration:1000,
         delta:function(p){return p;},
         step:function(delta){
-            ul.style.left = parseInt(currentPostion + direction * delta * imageWidth * numOfImageToGo) + 'px';
+            ul.style.left = parseInt(currentPostion + direction * delta * width) + 'px';
         },
         callback:function(){currentImage = imageToGo;}
     };

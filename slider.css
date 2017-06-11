@@ -23,8 +23,8 @@
     overflow: hidden;
     float: left;
     /*Chrom default padding for ul is 40px */
-    padding:0px;
-    margin:0px;
+    padding:2px;
+    margin:2px;
 }
 #image_slider li{
     position: relative;

@@ -10,11 +10,12 @@
     window.onload = function() {
         document.getElementById("particleSystemPreview").addEventListener("mouseup", function()
         {
-            for (var i = 0; i < Window.parent.frames.length; i++)
+
+            for (var i = 0; i < window.top.frames.length; i++)
             {
-                if (Window.parent.frames[i].id != undefined && Window.parent.frames[i].id !== "particleSystem")
+                if (window.top.frames[i].id != undefined && window.top.frames[i].id !== "particleSystem")
                 {
-                    Window.parent.frames[i].src = Window.parent.frames[i].id + "Preview.html";
+                    window.top.frames[i].src = window.top.frames[i].id + "Preview.html";
                 }
             }
             window.frameElement.src = "particleSystem.html";

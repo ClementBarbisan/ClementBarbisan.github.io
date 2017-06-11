@@ -18,6 +18,7 @@
                 var oldChild = parent.document.getElementById(listId[i]).contentDocument.getElementById(listId[i] + "Preview");
                 var newChild = oldChild.cloneNode(true);
                 oldChild.parentNode.replaceChild(newChild, oldChild);
+                newChild.style.opacity = '50%';
             }
             window.frameElement.src = "particleSystem.html";
         });

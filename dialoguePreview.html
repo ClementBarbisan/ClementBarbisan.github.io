@@ -7,16 +7,16 @@
 </head>
 <body>
 <script>
-    var listId = ['keyStrike','genetype','particleSystem','installations', 'formes']
+    var listId = ['keyStrike','genetype','particleSystem','installations', 'formes'];
     window.onload = function() {
         document.getElementById("dialoguePreview").addEventListener("mouseup", function()
         {
             for (var i = 0; i < listId.length; i++)
             {
-//                parent.document.getElementById(listId[i]).style.display = 'none';
                 var oldChild = parent.document.getElementById(listId[i]).contentDocument.getElementById(listId[i] + "Preview");
                 var newChild = oldChild.cloneNode(true);
                 oldChild.parentNode.replaceChild(newChild, oldChild);
+                newChild.style.opacity = 0.5;
             }
             window.frameElement.src = "dialogue.html";
         });

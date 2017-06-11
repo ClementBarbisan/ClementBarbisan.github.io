@@ -1,5 +1,4 @@
 .container{
-    width:800px;
     height:400px;
     padding:20px;
     border:1px solid gray;
@@ -55,7 +54,6 @@
     height:50px;
     margin:auto;
     margin-top:10px;
-    left: 50px;
 }
 #pager li{
     padding: 0px;

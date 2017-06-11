@@ -16,9 +16,9 @@ function init(){
     imageNumber = liItems.length;
     imageWidth = liItems[0].children[0].clientWidth;
     var width = 0;
-    for (var i =0; i < imageNumber; i++)
+    for (var i = 0; i < imageNumber; i++)
     {
-        listWidth[i] = liItems[0].children[i].clientWidth;
+        listWidth[i] = liItems[i].children[0].clientWidth;
         width += listWidth[i];
     }
     ul.style.width = parseInt(width) + 'px';

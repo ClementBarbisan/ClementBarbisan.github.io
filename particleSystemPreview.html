@@ -12,7 +12,8 @@
         {
             for (var i = 0; i < parent.window.frames.length; i++)
             {
-                parent.window.frames[i].style.display = 'none';
+                if (parent.window.frames[i].id != "particleSystem")
+                    parent.window.frames[i].style.display = "none";
             }
             window.frameElement.src = "particleSystem.html";
         });

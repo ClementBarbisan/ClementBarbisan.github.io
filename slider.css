@@ -6,7 +6,7 @@
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
-    background: black;
+    background: grey;
     text-align: center;
 }
 .slider_wrapper{
@@ -15,6 +15,12 @@
     height:280px;
     top:auto;
 }
+
+.image
+{
+    border: solid 2px;
+}
+
 #image_slider{
 
     position: relative;

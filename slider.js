@@ -51,7 +51,7 @@ function slideTo(imageToGo){
     // slide toward left
 
     direction = currentImage > imageToGo ? 1 : -1;
-    currentPostion = -1 * currentImage * imageWidth;
+    currentPostion = currentImage * imageWidth;
     var opts = {
         duration:1000,
         delta:function(p){return p;},

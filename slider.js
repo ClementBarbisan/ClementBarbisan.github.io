@@ -5,7 +5,7 @@ var ul;
 var liItems;
 var imageNumber;
 var imageWidth;
-var prev, next;
+// var prev, next;
 var currentPostion = 0;
 var currentImage = 0;
 var listWidth = [];
@@ -15,22 +15,22 @@ function init(){
     liItems = ul.children;
     imageNumber = liItems.length;
     imageWidth = liItems[0].children[0].clientWidth;
-    var width = liItems[0].children[0].clientWidth + 2;
+    var width = liItems[0].children[0].clientWidth + 4;
     for (var i = 0; i < imageNumber; i++)
     {
-        listWidth[i] = liItems[i].children[0].clientWidth + 2;
+        listWidth[i] = liItems[i].children[0].clientWidth + 4;
         width += listWidth[i];
     }
     ul.style.width = parseInt(width) + 'px';
-    prev = document.getElementById("prev");
-    next = document.getElementById("next");
+    // prev = document.getElementById("prev");
+    // next = document.getElementById("next");
     generatePager(imageNumber);
     //.onclike = slide(-1) will be fired when onload;
     /*
      prev.onclick = function(){slide(-1);};
      next.onclick = function(){slide(1);};*/
-    prev.onclick = function(){ onClickPrev();};
-    next.onclick = function(){ onClickNext();};
+    // prev.onclick = function(){ onClickPrev();};
+    // next.onclick = function(){ onClickNext();};
 }
 
 function animate(opts){
@@ -84,23 +84,23 @@ function slideTo(imageToGo){
     animate(opts);
 }
 
-function onClickPrev(){
-    if (currentImage == 0){
-        slideTo(imageNumber - 1);
-    }
-    else{
-        slideTo(currentImage - 1);
-    }
-}
-
-function onClickNext(){
-    if (currentImage == imageNumber - 1){
-        slideTo(0);
-    }
-    else{
-        slideTo(currentImage + 1);
-    }
-}
+// function onClickPrev(){
+//     if (currentImage == 0){
+//         slideTo(imageNumber - 1);
+//     }
+//     else{
+//         slideTo(currentImage - 1);
+//     }
+// }
+//
+// function onClickNext(){
+//     if (currentImage == imageNumber - 1){
+//         slideTo(0);
+//     }
+//     else{
+//         slideTo(currentImage + 1);
+//     }
+// }
 
 function generatePager(imageNumber){
     var pageNumber;

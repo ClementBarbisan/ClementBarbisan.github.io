@@ -8,10 +8,10 @@
 <script>
     var listId = ['keyStrike','genetype','particleSystem','installations', 'formes'];
     var height, width = 0;
-    window.frameElement.style.height = '800px';
-    window.frameElement.style.width = '800px';
     height =  window.parent.document.getElementById("dialogueParent").style.height;
     width =  window.parent.document.getElementById("dialogueParent").style.width;
+    window.frameElement.style.height = '800px';
+    window.frameElement.style.width = '800px';
     window.parent.document.getElementById("dialogueParent").style.height = window.frameElement.style.height;
     window.parent.document.getElementById("dialogueParent").style.width = window.frameElement.style.width;
     function closeFrame()
@@ -20,7 +20,7 @@
         window.parent.document.getElementById("dialogueParent").style.width = width;
         for (var i = 0; i < listId.length; i++)
         {
-            var oldChild = window.parent.document.getElementById(listId[i]);
+            var oldChild = parent.document.getElementById(listId[i]);
             //var newChild = oldChild.cloneNode(true);
             //oldChild.parentNode.replaceChild(newChild, oldChild);
             oldChild.style.opacity = 1;

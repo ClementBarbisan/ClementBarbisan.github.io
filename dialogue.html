@@ -20,10 +20,10 @@
         window.parent.document.getElementById("dialogueParent").style.width = width;
         for (var i = 0; i < listId.length; i++)
         {
-            var oldChild = window.parent.document.getElementById(listId[i]).contentDocument.getElementById(listId[i] + "Preview");
-            //var newChild = oldChild.cloneNode(true);
-            //oldChild.parentNode.replaceChild(newChild, oldChild);
-            oldChild.style.opacity = 1;
+            var oldChild = parent.document.getElementById(listId[i]).contentDocument.getElementById(listId[i] + "Preview");
+            var newChild = oldChild.cloneNode(true);
+            oldChild.parentNode.replaceChild(newChild, oldChild);
+            newChild.style.opacity = 1;
         }
         window.frameElement.src = "dialoguePreview.html";
         //window.parent.location.reload();

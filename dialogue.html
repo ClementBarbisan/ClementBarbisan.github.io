@@ -6,14 +6,19 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <script>
+    var height, width = 0;
     window.frameElement.style.height = '800px';
     window.frameElement.style.width = '800px';
+    height =  window.parent.document.getElementById("dialogueParent").style.height;
+    width =  window.parent.document.getElementById("dialogueParent").style.width;
     window.parent.document.getElementById("dialogueParent").style.height = window.frameElement.style.height;
     window.parent.document.getElementById("dialogueParent").style.width = window.frameElement.style.width;
     function closeFrame()
     {
+        window.parent.document.getElementById("dialogueParent").style.height = height;
+        window.parent.document.getElementById("dialogueParent").style.width = width;
         window.frameElement.src = "dialoguePreview.html";
-        window.parent.location.reload();
+        //window.parent.location.reload();
     }
 </script>
 <body>

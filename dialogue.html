@@ -20,7 +20,7 @@
         window.parent.document.getElementById("dialogueParent").style.width = width;
         for (var i = 0; i < listId.length; i++)
         {
-            var oldChild = window.parent.document.getElementById(listId[i] + "Parent");
+            var oldChild = window.parent.document.getElementById(listId[i]);
             //var newChild = oldChild.cloneNode(true);
             //oldChild.parentNode.replaceChild(newChild, oldChild);
             oldChild.style.opacity = 1;
@@ -28,7 +28,7 @@
         window.frameElement.src = "dialoguePreview.html";
         //window.parent.location.reload();
     }
-  
+
 </script>
 <body>
 <table>

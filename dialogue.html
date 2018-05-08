@@ -6,6 +6,7 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <script>
+    var listId = ['keyStrike','genetype','particleSystem','installations', 'formes'];
     var height, width = 0;
     window.frameElement.style.height = '800px';
     window.frameElement.style.width = '800px';
@@ -17,9 +18,23 @@
     {
         window.parent.document.getElementById("dialogueParent").style.height = height;
         window.parent.document.getElementById("dialogueParent").style.width = width;
+        for (var i = 0; i < listId.length; i++)
+        {
+            var oldChild = parent.document.getElementById(listId[i]).contentDocument.getElementById(listId[i] + "Preview");
+            //var newChild = oldChild.cloneNode(true);
+            //oldChild.parentNode.replaceChild(newChild, oldChild);
+            oldChild.style.opacity = 1;
+        }
         window.frameElement.src = "dialoguePreview.html";
         //window.parent.location.reload();
     }
+    window.onload = function() {
+        document.getElementById("dialoguePreview").addEventListener("mouseup", function()
+        {
+
+            window.frameElement.src = "dialogue.html";
+        });
+    };
 </script>
 <body>
 <table>

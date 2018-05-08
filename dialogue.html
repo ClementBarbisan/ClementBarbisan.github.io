@@ -18,6 +18,8 @@
     {
         window.parent.document.getElementById("dialogueParent").style.height = height;
         window.parent.document.getElementById("dialogueParent").style.width = width;
+        window.frameElement.style.height = height;
+        window.frameElement.style.width = width;
         for (var i = 0; i < listId.length; i++)
         {
             var oldChild = parent.document.getElementById(listId[i]);

@@ -6,14 +6,31 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <script>
+
+    var name = window.location.href.replace(".html", "");
+    var listId = ['keyStrike','genetype','particleSystem','installations', 'formes', 'dialogue'];
+    var height, width = 0;
+    height =  window.parent.document.getElementById(name + "Parent").style.height;
+    width =  window.parent.document.getElementById(name + "Parent").style.width;
     window.frameElement.style.height = '600px';
     window.frameElement.style.width = '700px';
-    window.parent.document.getElementById("particleSystemParent").style.height = window.frameElement.style.height;
-    window.parent.document.getElementById("particleSystemParent").style.width = window.frameElement.style.width;
+    window.parent.document.getElementById(name + "Parent").style.height = window.frameElement.style.height;
+    window.parent.document.getElementById(name + "Parent").style.width = window.frameElement.style.width;
     function closeFrame()
     {
-        window.frameElement.src = "particleSystemPreview.html";
-        window.parent.location.reload();
+        window.parent.document.getElementById(name + "Parent").style.height = height;
+        window.parent.document.getElementById(name + "Parent").style.width = width;
+        window.frameElement.style.height = height;
+        window.frameElement.style.width = width;
+        for (var i = 0; i < listId.length; i++)
+        {
+            var oldChild = parent.document.getElementById(listId[i]);
+            //var newChild = oldChild.cloneNode(true);
+            //oldChild.parentNode.replaceChild(newChild, oldChild);
+            oldChild.style.opacity = 1;
+        }
+        window.frameElement.src = name + "Preview.html";
+        //window.parent.location.reload();
     }
 </script>
 <body>

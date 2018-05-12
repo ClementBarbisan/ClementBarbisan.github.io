@@ -19,7 +19,7 @@
     <link rel="preload" as="image" href="formes/forme11.png">
 </head>
 <script>
-    var name = window.frameElement.src.toString().replace(".html", "");
+    var name = window.frameElement.src.replace(".html", "").replace("https://clementbarbisan.github.io/", "");
     var listId = ['keyStrike','genetype','particleSystem','installations', 'formes', 'dialogue'];
     var height, width = 0;
     height =  window.parent.document.getElementById(name + "Parent").style.height;

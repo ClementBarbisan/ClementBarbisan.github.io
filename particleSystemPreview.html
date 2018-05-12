@@ -14,9 +14,10 @@
 
             for (var i = 0; i < listId.length; i++)
             {
-//                parent.document.getElementById(listId[i]).style.display = 'none';
-                var oldChild = parent.document.getElementById(listId[i]).contentDocument.getElementById(listId[i] + "Preview");
-               oldChild.style.opacity = 0.5;
+                var oldChild = parent.document.getElementById(listId[i]);
+                //var newChild = oldChild.cloneNode(true);
+                //oldChild.parentNode.replaceChild(newChild, oldChild);
+                oldChild.style.opacity = 0.5;
             }
             window.frameElement.src = "particleSystem.html";
         });

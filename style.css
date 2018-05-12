@@ -18,23 +18,16 @@ a:hover
 
 .case200
 {
+    height: 200px;
 }
 
 .case300
 {
+    height: 300px;
 }
 
 .case400
 {
-}
-
-.case400 iframe
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
 
 .case400:hover .title

@@ -8,6 +8,7 @@
 <script>
 
     var name = window.frameElement.src.toString().replace(".html", "");
+    console.log(window.frameElement.src);
     var listId = ['keyStrike','genetype','particleSystem','installations', 'formes', 'dialogue'];
     var height, width = 0;
     height =  window.parent.document.getElementById(name + "Parent").style.height;

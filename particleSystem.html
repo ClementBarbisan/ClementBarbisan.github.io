@@ -16,7 +16,7 @@
     window.frameElement.style.width = '700px';
     window.parent.document.getElementById(name + "Parent").style.height = window.frameElement.style.height;
     window.parent.document.getElementById(name + "Parent").style.width = window.frameElement.style.width;
-    window.scrollTo(window.frameElement.style.left, window.frameElement.style.top);
+    window.frameElement.scrollTop();
     function closeFrame()
     {
         window.parent.document.getElementById(name + "Parent").style.height = height;

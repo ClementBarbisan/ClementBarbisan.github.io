@@ -15,7 +15,6 @@
     window.frameElement.style.width = '800px';
     window.parent.document.getElementById(name + "Parent").style.height = window.frameElement.style.height;
     window.parent.document.getElementById(name + "Parent").style.width = window.frameElement.style.width;
-    window.scrollTo(0, 800 * 2);
     function closeFrame()
     {
         window.parent.document.getElementById(name + "Parent").style.height = height;
@@ -27,6 +26,7 @@
             var oldChild = parent.document.getElementById(listId[i]);
             //var newChild = oldChild.cloneNode(true);
             //oldChild.parentNode.replaceChild(newChild, oldChild);
+            oldChild.style.width = width;
             oldChild.style.opacity = 1;
         }
         window.frameElement.src = name + "Preview.html";

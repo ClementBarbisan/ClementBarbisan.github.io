@@ -7,9 +7,9 @@
 </head>
 <body>
 <script>
-    var listId = ['keyStrike','genetype','particleSystem','installations', 'dialogue', 'traversee', 'bodyfail'];
+    var listId = ['keyStrike','dialogue','particleSystem','installations', 'formes', 'traversee', 'genetype'];
     window.onload = function() {
-        document.getElementById("formesPreview").addEventListener("mouseup", function()
+        document.getElementById("bodyfailPreview").addEventListener("mouseup", function()
         {
             for (var i = 0; i < listId.length; i++)
             {
@@ -18,14 +18,14 @@
                 //oldChild.parentNode.replaceChild(newChild, oldChild);
                 oldChild.style.opacity = 0.5;
             }
-            window.frameElement.src = "formes.html";
+            window.frameElement.src = "bodyfail.html";
         });
     };
 
 </script>
-<div class="case200" id="formesPreview">
+<div class="case400" id="bodyfailPreview">
     <div class="title">
-        Formes
+        Bodyfail
     </div>
 </div>
 

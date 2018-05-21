@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <title>Clément Barbisan</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./plyr.css">
 </head>
 <script>
-
     var name = window.frameElement.src.replace(".html", "").replace("https://clementbarbisan.github.io/", "");
     var listId = ['keyStrike','genetype','particleSystem','installations', 'formes', 'dialogue', 'traversee', 'bodyfail'];
     var height, width = 0;
     height =  window.parent.document.getElementById(name + "Parent").style.height;
     width =  window.parent.document.getElementById(name + "Parent").style.width;
-    window.frameElement.style.height = '600px';
-    window.frameElement.style.width = '700px';
+    window.frameElement.style.height = '800px';
+    window.frameElement.style.width = '800px';
     window.parent.document.getElementById(name + "Parent").style.height = window.frameElement.style.height;
     window.parent.document.getElementById(name + "Parent").style.width = window.frameElement.style.width;
     function closeFrame()
@@ -36,13 +36,13 @@
 <body>
 <table>
     <td>
-        <img src="images/particleSystem.jpg" style="width: 600px"></img>
+        <div  style="margin: auto;align-content: center;" id="video" data-type="vimeo" data-video-id="241494529">
+        </div>
+        <script src="./plyr.js"></script>
+        <script>plyr.setup('#video');</script>
     </td>
     <td class="description">
-        Simulation d'un système de particules.
-        <div class="buttons">
-            <div class="button"><a href="https://github.com/ClementBarbisan/particleSystem" target="_blank">Code Sources</a></div>
-        </div>
+        Dialogue entre un aveugle et un sourd. Les mouvements sont interprétés en sons et les sons en images. Projet fait au cours du week-end Culture Experience Day 2015.
         <img src="images/delete.png" class="delete" onclick="closeFrame()"></img>
     </td>
 </table>

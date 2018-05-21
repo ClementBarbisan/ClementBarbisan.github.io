@@ -18,8 +18,8 @@
       <file leaf-file-name="dialogue.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dialogue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" column="77" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
+            <state relative-caret-position="221">
+              <caret line="17" selection-start-line="17" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -36,8 +36,8 @@
       <file leaf-file-name="dialoguePreview.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dialoguePreview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
+            <state relative-caret-position="289">
+              <caret line="17" column="71" lean-forward="true" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -137,8 +137,8 @@
         <option value="$PROJECT_DIR$/particleSystem.html" />
         <option value="$PROJECT_DIR$/traversee.html" />
         <option value="$PROJECT_DIR$/genetype.html" />
-        <option value="$PROJECT_DIR$/dialoguePreview.html" />
         <option value="$PROJECT_DIR$/dialogue.html" />
+        <option value="$PROJECT_DIR$/dialoguePreview.html" />
       </list>
     </option>
   </component>
@@ -256,12 +256,12 @@
       <workItem from="1526134008115" duration="8455000" />
       <workItem from="1526158468744" duration="710000" />
       <workItem from="1526159379816" duration="1411000" />
-      <workItem from="1526893898814" duration="8892000" />
+      <workItem from="1526893898814" duration="9405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20447000" />
+    <option name="totallyTimeSpent" value="20960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1368" y="-8" width="1376" height="744" extended-state="6" />
@@ -632,15 +632,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dialoguePreview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
+        <state relative-caret-position="289">
+          <caret line="17" column="71" lean-forward="true" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dialogue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="77" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
+        <state relative-caret-position="221">
+          <caret line="17" selection-start-line="17" selection-end-line="18" />
         </state>
       </provider>
     </entry>

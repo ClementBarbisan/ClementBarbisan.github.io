@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7d991a82-69ac-42af-82a9-6efbb206ab5a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/dialogue.html" beforeDir="false" afterPath="$PROJECT_DIR$/dialogue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genetype.html" beforeDir="false" afterPath="$PROJECT_DIR$/genetype.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dialogue.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dialogue.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dialogue.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="17" column="88" selection-start-line="17" selection-start-column="88" selection-end-line="17" selection-end-column="88" />
+              <caret line="17" selection-start-line="17" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -59,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="genetype.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="genetype.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/genetype.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="289">
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -132,12 +133,12 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/bodyfail.html" />
         <option value="$PROJECT_DIR$/formes.html" />
-        <option value="$PROJECT_DIR$/genetype.html" />
         <option value="$PROJECT_DIR$/installations.html" />
         <option value="$PROJECT_DIR$/keyStrike.html" />
         <option value="$PROJECT_DIR$/particleSystem.html" />
         <option value="$PROJECT_DIR$/traversee.html" />
         <option value="$PROJECT_DIR$/dialogue.html" />
+        <option value="$PROJECT_DIR$/genetype.html" />
       </list>
     </option>
   </component>
@@ -255,12 +256,12 @@
       <workItem from="1526134008115" duration="8455000" />
       <workItem from="1526158468744" duration="710000" />
       <workItem from="1526159379816" duration="1411000" />
-      <workItem from="1526893898814" duration="7454000" />
+      <workItem from="1526893898814" duration="7594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19009000" />
+    <option name="totallyTimeSpent" value="19149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1368" y="-8" width="1376" height="744" extended-state="6" />
@@ -597,13 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/genetype.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/installations.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -639,7 +633,14 @@
     <entry file="file://$PROJECT_DIR$/dialogue.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="17" column="88" selection-start-line="17" selection-start-column="88" selection-end-line="17" selection-end-column="88" />
+          <caret line="17" selection-start-line="17" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genetype.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>

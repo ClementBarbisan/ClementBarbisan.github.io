@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d991a82-69ac-42af-82a9-6efbb206ab5a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/bodyfail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bodyfailPreview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/traversee.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/traverseePreview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dialogue.html" beforeDir="false" afterPath="$PROJECT_DIR$/dialogue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dialoguePreview.html" beforeDir="false" afterPath="$PROJECT_DIR$/dialoguePreview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formes.html" beforeDir="false" afterPath="$PROJECT_DIR$/formes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formesPreview.html" beforeDir="false" afterPath="$PROJECT_DIR$/formesPreview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetype.html" beforeDir="false" afterPath="$PROJECT_DIR$/genetype.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetypePreview.html" beforeDir="false" afterPath="$PROJECT_DIR$/genetypePreview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/installations.html" beforeDir="false" afterPath="$PROJECT_DIR$/installations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/installationsPreview.html" beforeDir="false" afterPath="$PROJECT_DIR$/installationsPreview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyStrike.html" beforeDir="false" afterPath="$PROJECT_DIR$/keyStrike.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyStrikePreview.html" beforeDir="false" afterPath="$PROJECT_DIR$/keyStrikePreview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/particleSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/particleSystem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/particleSystemPreview.html" beforeDir="false" afterPath="$PROJECT_DIR$/particleSystemPreview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bodyfail.html" beforeDir="false" afterPath="$PROJECT_DIR$/bodyfail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/traversee.html" beforeDir="false" afterPath="$PROJECT_DIR$/traversee.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dialogue.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dialogue.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dialogue.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -80,14 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bodyfail.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bodyfail.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bodyfail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="38" column="111" selection-start-line="38" selection-start-column="111" selection-end-line="38" selection-end-column="111" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="394">
+              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -95,11 +76,8 @@
       <file leaf-file-name="traversee.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/traversee.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="38" column="111" selection-start-line="38" selection-start-column="111" selection-end-line="38" selection-end-column="111" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="292">
+              <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -150,13 +128,13 @@
         <option value="$PROJECT_DIR$/installations.html" />
         <option value="$PROJECT_DIR$/installationsPreview.html" />
         <option value="$PROJECT_DIR$/particleSystemPreview.html" />
-        <option value="$PROJECT_DIR$/bodyfail.html" />
-        <option value="$PROJECT_DIR$/traversee.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/bodyfailPreview.html" />
         <option value="$PROJECT_DIR$/traverseePreview.html" />
         <option value="$PROJECT_DIR$/dialogue.html" />
+        <option value="$PROJECT_DIR$/traversee.html" />
+        <option value="$PROJECT_DIR$/bodyfail.html" />
       </list>
     </option>
   </component>
@@ -273,12 +251,12 @@
       <workItem from="1526134008115" duration="8455000" />
       <workItem from="1526158468744" duration="710000" />
       <workItem from="1526159379816" duration="1411000" />
-      <workItem from="1526893898814" duration="3392000" />
+      <workItem from="1526893898814" duration="4224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14947000" />
+    <option name="totallyTimeSpent" value="15779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1368" y="-8" width="1376" height="744" extended-state="6" />
@@ -579,44 +557,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bodyfail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="38" column="111" selection-start-line="38" selection-start-column="111" selection-end-line="38" selection-end-column="111" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/traversee.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="38" column="111" selection-start-line="38" selection-start-column="111" selection-end-line="38" selection-end-column="111" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/keyStrikePreview.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="111" selection-start-line="9" selection-start-column="111" selection-end-line="9" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bodyfailPreview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="107" selection-start-line="9" selection-start-column="107" selection-end-line="9" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/particleSystemPreview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="102" selection-start-line="9" selection-start-column="102" selection-end-line="9" selection-end-column="102" />
         </state>
       </provider>
     </entry>
@@ -638,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dialoguePreview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="108" selection-start-line="9" selection-start-column="108" selection-end-line="9" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/genetype.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -656,6 +593,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="9" column="95" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dialoguePreview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="108" selection-start-line="9" selection-start-column="108" selection-end-line="9" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bodyfailPreview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="107" selection-start-line="9" selection-start-column="107" selection-end-line="9" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particleSystemPreview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="102" selection-start-line="9" selection-start-column="102" selection-end-line="9" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traversee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bodyfail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
         </state>
       </provider>
     </entry>

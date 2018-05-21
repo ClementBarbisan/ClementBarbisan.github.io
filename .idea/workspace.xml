@@ -4,7 +4,6 @@
     <list default="true" id="7d991a82-69ac-42af-82a9-6efbb206ab5a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/dialogue.html" beforeDir="false" afterPath="$PROJECT_DIR$/dialogue.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dialoguePreview.html" beforeDir="false" afterPath="$PROJECT_DIR$/dialoguePreview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetype.html" beforeDir="false" afterPath="$PROJECT_DIR$/genetype.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,8 @@
       <file leaf-file-name="dialogue.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dialogue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            <state relative-caret-position="357">
+              <caret line="25" column="77" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -37,8 +36,8 @@
       <file leaf-file-name="dialoguePreview.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dialoguePreview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="255">
+              <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -257,12 +256,12 @@
       <workItem from="1526134008115" duration="8455000" />
       <workItem from="1526158468744" duration="710000" />
       <workItem from="1526159379816" duration="1411000" />
-      <workItem from="1526893898814" duration="8676000" />
+      <workItem from="1526893898814" duration="8892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20231000" />
+    <option name="totallyTimeSpent" value="20447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1368" y="-8" width="1376" height="744" extended-state="6" />
@@ -633,15 +632,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dialoguePreview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="255">
+          <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dialogue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="357">
+          <caret line="25" column="77" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
         </state>
       </provider>
     </entry>

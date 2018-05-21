@@ -64,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bodyfail.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bodyfail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bodyfail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="394">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -77,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="traversee.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="traversee.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/traversee.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="292">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -141,8 +141,8 @@
         <option value="$PROJECT_DIR$/bodyfailPreview.html" />
         <option value="$PROJECT_DIR$/traverseePreview.html" />
         <option value="$PROJECT_DIR$/dialogue.html" />
-        <option value="$PROJECT_DIR$/traversee.html" />
         <option value="$PROJECT_DIR$/bodyfail.html" />
+        <option value="$PROJECT_DIR$/traversee.html" />
       </list>
     </option>
   </component>
@@ -259,12 +259,12 @@
       <workItem from="1526134008115" duration="8455000" />
       <workItem from="1526158468744" duration="710000" />
       <workItem from="1526159379816" duration="1411000" />
-      <workItem from="1526893898814" duration="4681000" />
+      <workItem from="1526893898814" duration="4916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16236000" />
+    <option name="totallyTimeSpent" value="16471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1368" y="-8" width="1376" height="744" extended-state="6" />
@@ -625,10 +625,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/traversee.html">
+    <entry file="file://$PROJECT_DIR$/bodyfail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="26" />
+        <state relative-caret-position="394">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -636,10 +636,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bodyfail.html">
+    <entry file="file://$PROJECT_DIR$/traversee.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        <state relative-caret-position="292">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />

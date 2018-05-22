@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="7d991a82-69ac-42af-82a9-6efbb206ab5a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/bodyfail.html" beforeDir="false" afterPath="$PROJECT_DIR$/bodyfail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dialogue.html" beforeDir="false" afterPath="$PROJECT_DIR$/dialogue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formes.html" beforeDir="false" afterPath="$PROJECT_DIR$/formes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genetype.html" beforeDir="false" afterPath="$PROJECT_DIR$/genetype.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installations.html" beforeDir="false" afterPath="$PROJECT_DIR$/installations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyStrike.html" beforeDir="false" afterPath="$PROJECT_DIR$/keyStrike.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/particleSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/particleSystem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/traversee.html" beforeDir="false" afterPath="$PROJECT_DIR$/traversee.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/dialogue.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="17" column="91" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+              <caret line="17" selection-start-line="17" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -37,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/formes.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="30" column="91" selection-start-line="30" selection-start-column="91" selection-end-line="30" selection-end-column="91" />
+              <caret line="30" selection-start-line="30" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -45,8 +52,8 @@
       <file leaf-file-name="keyStrike.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/keyStrike.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="18" column="91" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
+            <state relative-caret-position="68">
+              <caret line="18" selection-start-line="18" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -55,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/particleSystem.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="37">
-              <caret line="18" column="91" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
+              <caret line="18" selection-start-line="18" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -64,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/genetype.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="17" column="91" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+              <caret line="17" selection-start-line="17" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -72,8 +79,8 @@
       <file leaf-file-name="installations.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/installations.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="60" />
+            <state relative-caret-position="224">
+              <caret line="29" selection-start-line="29" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -81,8 +88,8 @@
       <file leaf-file-name="bodyfail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bodyfail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="51">
+              <caret line="18" selection-start-line="18" selection-end-line="19" />
               <folding>
                 <element signature="n#style#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -91,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="28" column="103" selection-start-line="28" selection-start-column="103" selection-end-line="28" selection-end-column="103" />
+            <state relative-caret-position="17">
+              <caret line="16" column="101" lean-forward="true" selection-start-line="16" selection-start-column="101" selection-end-line="16" selection-end-column="101" />
               <folding>
                 <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -104,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="traversee.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="traversee.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/traversee.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="18" column="91" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="n#style#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -134,15 +141,15 @@
         <option value="$PROJECT_DIR$/traverseePreview.html" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/dialoguePreview.html" />
-        <option value="$PROJECT_DIR$/traversee.html" />
-        <option value="$PROJECT_DIR$/particleSystem.html" />
-        <option value="$PROJECT_DIR$/keyStrike.html" />
-        <option value="$PROJECT_DIR$/installations.html" />
-        <option value="$PROJECT_DIR$/genetype.html" />
-        <option value="$PROJECT_DIR$/formes.html" />
-        <option value="$PROJECT_DIR$/dialogue.html" />
-        <option value="$PROJECT_DIR$/bodyfail.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/bodyfail.html" />
+        <option value="$PROJECT_DIR$/dialogue.html" />
+        <option value="$PROJECT_DIR$/formes.html" />
+        <option value="$PROJECT_DIR$/genetype.html" />
+        <option value="$PROJECT_DIR$/installations.html" />
+        <option value="$PROJECT_DIR$/keyStrike.html" />
+        <option value="$PROJECT_DIR$/particleSystem.html" />
+        <option value="$PROJECT_DIR$/traversee.html" />
       </list>
     </option>
   </component>
@@ -261,12 +268,12 @@
       <workItem from="1526158468744" duration="710000" />
       <workItem from="1526159379816" duration="1411000" />
       <workItem from="1526893898814" duration="9762000" />
-      <workItem from="1527003484181" duration="2892000" />
+      <workItem from="1527003484181" duration="3049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24209000" />
+    <option name="totallyTimeSpent" value="24366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1368" y="-8" width="1376" height="744" extended-state="6" />
@@ -610,77 +617,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/traversee.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="18" column="91" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
+        <state relative-caret-position="17">
+          <caret line="16" column="101" lean-forward="true" selection-start-line="16" selection-start-column="101" selection-end-line="16" selection-end-column="101" />
           <folding>
-            <element signature="n#style#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/particleSystem.html">
+    <entry file="file://$PROJECT_DIR$/bodyfail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="18" column="91" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keyStrike.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" column="91" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/genetype.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="17" column="91" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="30" column="91" selection-start-line="30" selection-start-column="91" selection-end-line="30" selection-end-column="91" />
+        <state relative-caret-position="51">
+          <caret line="18" selection-start-line="18" selection-end-line="19" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dialogue.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="17" column="91" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+          <caret line="17" selection-start-line="17" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="30" selection-start-line="30" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genetype.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17" selection-start-line="17" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/installations.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="60" />
+        <state relative-caret-position="224">
+          <caret line="29" selection-start-line="29" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bodyfail.html">
+    <entry file="file://$PROJECT_DIR$/keyStrike.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <caret line="18" selection-start-line="18" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particleSystem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="18" selection-start-line="18" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traversee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="n#style#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="28" column="103" selection-start-line="28" selection-start-column="103" selection-end-line="28" selection-end-column="103" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

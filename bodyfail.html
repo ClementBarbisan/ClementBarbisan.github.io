@@ -16,7 +16,8 @@
     window.frameElement.style.width = '800px';
     window.parent.document.getElementById(name + "Parent").style.height = window.frameElement.style.height;
     window.parent.document.getElementById(name + "Parent").style.width = window.frameElement.style.width;
-    console.log("test7");
+    window.parent.window.scrollTo(0, window.parent.document.getElementById(name + 'Parent').offsetTop);
+    console.log("test8");
     function closeFrame()
     {
         window.parent.document.getElementById(name + "Parent").style.height = height;

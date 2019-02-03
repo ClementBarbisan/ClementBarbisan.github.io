@@ -9,7 +9,7 @@
 <script>
     var listId = ['keyStrike','dialogue','particleSystem','installations', 'formes', 'genetype', 'bodyfail', 'magma'];
     window.onload = function() {
-        document.getElementById("traverseePreview").addEventListener("mouseup", function()
+        document.getElementById("magmaPreview").addEventListener("mouseup", function()
         {
             for (var i = 0; i < listId.length; i++)
             {
@@ -18,14 +18,14 @@
                 //oldChild.parentNode.replaceChild(newChild, oldChild);
                 oldChild.style.opacity = 0.5;
             }
-            window.frameElement.src = "traversee.html";
+            window.frameElement.src = "magma.html";
         });
     };
 
 </script>
-<div class="case400" id="traverseePreview">
+<div class="case200" id="magmaPreview">
     <div class="title">
-        Traversee du silence
+        Magma
     </div>
 </div>
 

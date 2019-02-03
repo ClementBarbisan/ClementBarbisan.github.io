@@ -104,6 +104,8 @@ iframe
 #installationsParent {}
 #bodyfailPreview {background: url("./images/bodyfail.png") no-repeat center; background-size: cover; }
 #bodyfailParent {}
+#magmaPreview {background: url("./images/magma.png") no-repeat center; background-size: cover; }
+#magmaParent {}
 #traverseePreview {background: url("./images/traversee.png") no-repeat center; background-size: cover; }
 #traverseeParent {}
 #particleSystemPreview {background: url("./images/particleSystem.jpg") no-repeat center; background-size: cover; }
